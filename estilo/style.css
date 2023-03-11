@@ -70,7 +70,6 @@ nav a{
 .primeira{
     list-style: inside;
     margin: 10px;
-    columns: 3;
     background-image: linear-gradient(to left, #1c8bac1f, #1caca071, #1c8bac1f);
     color: rgb(1, 9, 22);
     margin-top: -1.5px;
