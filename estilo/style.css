@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    background-image: linear-gradient(to right, transparent,  #153692, #2279b3, #95BFA7, #F2F2F2, #0259282c );
+    background-image: linear-gradient(to bottom, black, rgb(6, 27, 6), green);
     min-width: 30%;
     max-width: 100%;
 }
@@ -21,7 +21,7 @@ header h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 5px;
-    color: #011d1f;
+    color: #feffff;
     font-weight: bold;
 
 }
@@ -33,7 +33,7 @@ header p{
     padding: 10px;
     max-width: 500px;
     margin: auto;
-    color: rgb(0, 2, 1);
+    color: rgb(254, 255, 255);
     
  }
 
@@ -67,24 +67,61 @@ nav a{
     border-radius: 10px 10px;
 }
 
-.primeira{
-    list-style: inside;
+.cima{
+    background-color: rgba(144, 238, 144, 0.808);
+}
+.imoral#q1{
+    padding: 15px;
+}
+.moral#q1{
+  margin-top: 10px;  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1em;
+}
+.moral{
+    height: 199px;
+    width: 295px;
+    text-align: justify;
+    background-color: lightgreen;   
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    
+}
+.moral li{
+    text-align: left;
+    text-indent: 10px;
+    padding: 10px;
     margin: 10px;
-    background-image: linear-gradient(to left, #1c8bac1f, #1caca071, #1c8bac1f);
-    color: rgb(1, 9, 22);
-    margin-top: -1.5px;
-    margin-bottom: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 20px;
-    padding-left: 50px;
+    list-style-type: none;
+    
+    
 }
-.prima {
+
+.imoral{
+    text-align: right;
+    margin-top: -200px;
+    background-color:lightgreen;
+    margin-left:65%;
+    border-radius: 10px 10px 10px 10px;
+}
+.imoral img{
+    height: 170px;
+    width: 170px;
+
+}
+.imoral ul{
+    list-style-type: none;
+}
+
+.primeira{
+    text-align: left;
+    text-indent: 10px;
+}
+
+.prima{
     background-image: linear-gradient(to left, #1c8bac1f, #1caca06c,  #1c8bac1f);
-    
-    
-    
 }
+
 
 .leão{
     background-image: linear-gradient(to bottom, #fcffffd5, #58b3d660,  #fcffffd5);
