@@ -8,19 +8,22 @@
 /*background-image: linear-gradient(to bottom, #5caf7f, #95bfb9, #F2F2F2,  #2ee4a7);*/
 body{
     border: 1px;
+    background-color: rgba(144, 238, 144, 0.678);
 }
 
 header{
-    background-image: linear-gradient(to bottom, black, rgb(6, 27, 6), green);
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(11, 26, 11),  rgb(15, 252, 133));
     min-width: 30%;
     max-width: 100%;
+    
 }
 
 
 header h1{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 5px;
+    padding-top: 60px;
+    padding-bottom: 5px;
     color: #feffff;
     font-weight: bold;
 
@@ -30,84 +33,86 @@ header h1{
 header p{
     text-align: center;
     font-weight: lighter; 
-    padding: 10px;
+    padding-bottom: 50px;
     max-width: 500px;
     margin: auto;
     color: rgb(254, 255, 255);
     
  }
 
-nav{
-    background-color: white;
-    padding: 5px;
-    margin: 5px;
-    max-width: 100px;
-    min-width: 50px;
-    border-radius: 0px 10px 10px 0px;
-    
-    
-}
-
-nav a{
-    color: rgb(4, 129, 31);
-    font-size: 1.2em;
-    
-}
 .logo {
-    text-align: right;
     
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 5px;
 }
 
-.logo > img{
-    width: 90px;
+/*width: 90px;
     height: 90px;
     margin-top: -80px;
     margin-bottom: 10px;
     padding-right: 10px;
-    border-radius: 10px 10px;
+    border-radius: 10px 10px
+    ;*/
+.logo > img{
+    width: 170px;
+    height: 170px;
+    background-color: rgb(21, 158, 105); 
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
 }
 
+/*background-color: rgba(164, 218, 188, 0.678);  rgb(187, 241, 214)*/
 .cima{
-    background-color: rgba(144, 238, 144, 0.808);
+    background-image: linear-gradient(to top,  rgb(187, 241, 214), rgb(15, 252, 133));
+    padding-bottom: 16px;
+    box-shadow: 2px 3px 5px #011d1f70;
+    margin-top: -1px;
+    margin-bottom: 20px;
 }
+
 .imoral#q1{
     padding: 15px;
 }
+
 .moral#q1{
-  margin-top: 10px;  
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.1em;
+    margin-top: 1px;  
+  font-size: 1.2em;
 }
+/*background-color: rgba(144, 238, 144, 0.37);*/
 .moral{
     height: 199px;
     width: 295px;
     text-align: justify;
-    background-color: lightgreen;   
+    color: rgb(0, 13, 43);   
     border-radius: 10px 10px 10px 10px;
-    margin-left: 10px;
+    
     
 }
+/*background-color: rgba(164, 218, 188, 0.678);*/
 .moral li{
-    text-align: left;
-    text-indent: 10px;
+    text-align: center;
+    text-indent: 20px;
     padding: 10px;
-    margin: 10px;
-    list-style-type: none;
-    
+    list-style-type: none; 
     
 }
-
+/*background-color:rgba(144, 238, 144, 0.301); / background-color: rgba(164, 218, 188, 0.678);*/
 .imoral{
-    text-align: right;
+    text-align: center;
     margin-top: -200px;
-    background-color:lightgreen;
     margin-left:65%;
     border-radius: 10px 10px 10px 10px;
 }
 .imoral img{
-    height: 170px;
-    width: 170px;
-
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    
 }
 .imoral ul{
     list-style-type: none;
@@ -115,7 +120,12 @@ nav a{
 
 .primeira{
     text-align: left;
-    text-indent: 10px;
+    background-image: linear-gradient(to left, #1c8bac1f, #1caca06c,  #1c8bac1f);
+}
+.primeira ul{
+    list-style: inside;
+    margin-left: 15%;
+    
 }
 
 .prima{
@@ -124,20 +134,67 @@ nav a{
 
 
 .leão{
-    background-image: linear-gradient(to bottom, #fcffffd5, #58b3d660,  #fcffffd5);
-    margin-top: 0px;
+    
+    
+    margin-top: 15px;
     padding: 20px;
     color: rgb(2, 34, 6);
 
 }
 
-main{
+h2{
+    background-image: linear-gradient(to left, transparent, rgb(5, 133, 95));
+    padding: 5px;
+    text-indent: 15px;
     
+}
+
+.leão h3{
+    background-image: linear-gradient(to left, transparent, lightgreen);
+    margin-top: 25px;
+}
+
+.zap{
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 15px;
+  
+}
+
+.zap a{
+    background-color: rgb(21, 158, 105); 
+    color: white;
+    border-radius: 100px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    
+}
+
+.paz{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.paz a{
+    background-color: rgb(21, 158, 105); 
+    color: white;
+    border-radius: 100px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+
+main{
     max-width: 750px;
     min-width: 300px;
     margin: auto;
     background-color: white;
     font-size: 1.2em;
+    box-shadow: 5px 5px 5px #011d1f70;
 
 }
 /*max-width: 650px;
@@ -160,7 +217,6 @@ aside{
     border-radius: 5px 5px;
     margin: 10px;
     padding: 10px;
-    text-shadow: 0.5px 0.5px 0.2px rgb(4, 63, 4);
     box-shadow: 2px 3px 2px rgb(1, 24, 1) ;
 }
 
@@ -191,4 +247,7 @@ footer{
     font-style: italic;
     font-weight: lighter;
     padding: 3px;
+}
+footer a {
+    color: black;
 }
